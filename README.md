@@ -1,26 +1,26 @@
-﻿# ðŸ—“ï¸ AI Calendar UI
+# 🗓️ AI Calendar UI
 
 ### React + TypeScript + Vite
 
-This is the **frontend** part of the **AI Calendar** project â€” a smart calendar application powered by React, TypeScript, and natural language prompts.
+This is the **frontend** part of the **AI Calendar** project — a smart calendar application powered by React, TypeScript, and natural language prompts.
 
 The app allows users to **view events**, **create new ones via prompts**, and **see available time slots** shared among participants.
 
 
-## ðŸŒ Live Demo
+## 🌐 Live Demo
 
-ðŸ”— [GitHub Pages Deployment](https://DotNetChickUa.github.io/AI-Calendar/)
-
-
-## ðŸ§© Features
-
-- ðŸ“… Weekly calendar using **FullCalendar**
-- ðŸ§  Prompt Executor: interact with the backend via natural language
-- ðŸ“‹ Event list for next week
-- ðŸ” Sync with backend API deployed on **Render**
+🔗 [GitHub Pages Deployment](https://DotNetChickUa97.github.io/AI-Calendar/)
 
 
-## ðŸ›  Tech Stack
+## 🧩 Features
+
+- 📅 Weekly calendar using **FullCalendar**
+- 🧠 Prompt Executor: interact with the backend via natural language
+- 📋 Event list for next week
+- 🔁 Sync with backend API deployed on **Render**
+
+
+## 🛠 Tech Stack
 
 - **React 18**
 - **TypeScript**
@@ -30,12 +30,12 @@ The app allows users to **view events**, **create new ones via prompts**, and **
 - Backend API: [.NET 8 WebAPI on Render](https://aicalendarbackend.onrender.com)
 
 
-## âš™ï¸ Getting Started Locally
+## ⚙️ Getting Started Locally
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/DotNetChickUa/AI-Calendar.git
+git clone https://github.com/DotNetChickUa97/AI-Calendar.git
 cd AI-Calendar
 ```
 
@@ -52,30 +52,29 @@ npm run dev
 Then open http://localhost:5173 in your browser.
 ```
 
-## ðŸ§  Project Structure
+## 🧠 Project Structure
 
 ```bash
 .
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ components/       # Calendar, EventsTable, PromptExecutor
-â”‚   â”œâ”€â”€ types/            # TypeScript interfaces
-â”‚   â”œâ”€â”€ App.tsx           # Main app logic
-â”‚   â””â”€â”€ main.tsx          # Entry point
-â”œâ”€â”€ .env
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ index.html
-â””â”€â”€ vite.config.ts
+├── src/
+│   ├── components/       # Calendar, EventsTable, PromptExecutor
+│   ├── types/            # TypeScript interfaces
+│   ├── App.tsx           # Main app logic
+│   └── main.tsx          # Entry point
+├── .env
+├── .gitignore
+├── index.html
+└── vite.config.ts
 ```
 
-## ðŸ“¦ Build
+## 📦 Build
 
 ```bash
 npm run build
 ```
 
-## ðŸ”’ Notes
+## 🔒 Notes
 
-- CORS is enabled on the backend for this frontendâ€™s origin.
+- CORS is enabled on the backend for this frontend’s origin.
 
 - Prompt endpoint: POST /api/v1/events/prompt
-
