@@ -9,7 +9,7 @@ The app allows users to **view events**, **create new ones via prompts**, and **
 
 ## 🌐 Live Demo
 
-🔗 [GitHub Pages Deployment](https://DotNetChickUa97.github.io/AI-Calendar/)
+🔗 [GitHub Pages Deployment](https://DotNetChickUa.github.io/AI-Calendar/)
 
 
 ## 🧩 Features
@@ -35,7 +35,7 @@ The app allows users to **view events**, **create new ones via prompts**, and **
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/DotNetChickUa97/AI-Calendar.git
+git clone https://github.com/DotNetChickUa/AI-Calendar.git
 cd AI-Calendar
 ```
 
