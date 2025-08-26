@@ -1,5 +1,7 @@
 # 🗓️ AI Calendar UI
 
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
 ### React + TypeScript + Vite
 
 This is the **frontend** part of the **AI Calendar** project — a smart calendar application powered by React, TypeScript, and natural language prompts.
